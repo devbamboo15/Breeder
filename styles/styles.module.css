@@ -1,0 +1,105 @@
+.wallet-wrapper {
+    color: #B1AFCD;
+}
+.card_summary {
+    background-color: #261C45;
+    border-radius: 10px;
+    box-shadow: 0px 48px 69px rgba(23, 18, 43, 0.845335);
+    backdrop-filter: blur(20px);
+    padding-left: 40px;
+}
+
+.summary_title {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.summary_text {
+    color: #5B5A99;
+    font-size: 16px;
+}
+
+.card_status {
+    background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(33, 30, 75, 0.50218) 99.53%);
+    box-shadow: 0px 46px 69px #17122B;
+    backdrop-filter: blur(20.7588px);
+    border-radius: 10px;
+
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.status_percent {
+    color: #E3507A;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.imageSize {
+    min-width: 250px;
+}
+
+.gradient_but {
+    background: linear-gradient(278.76deg, #309AFF 1.92%, #38EFC3 111.91%);
+    border-radius: 8px;
+}
+
+.breedTable {
+    width: 100%;
+}
+
+.breedTable th {
+    width: 25%;
+    text-align: left;
+    padding: 12px 0;
+    font-weight: unset;
+}
+
+.breedTable td {
+    padding: 12px 0;
+}
+
+.breedTable td:first-child {
+    padding-left: 20px;
+}
+
+.breedTable caption {
+    text-align: left;
+}
+
+.breedTable tr:nth-child(odd) {
+    background-color: #261C45;
+}
+
+.breedTable tr:nth-child(odd) td:first-child{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.breedTable tr:nth-child(odd) td:last-child{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.tableRow:hover {
+    cursor: pointer;
+    background-color: rgba(173, 169, 207, 0.536) !important;
+}
+
+.gradientText {
+    background: -webkit-linear-gradient(#309AFF, #38EFC3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logoWrapper {
+    position: absolute;
+    top: -40px;
+    right: -20px;
+}

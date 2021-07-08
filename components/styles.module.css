@@ -1,0 +1,20 @@
+/* button-style */
+
+.gradient_but {
+    background: linear-gradient(278.76deg, #309AFF 1.92%, #38EFC3 111.91%);
+    border-radius: 8px;
+}
+
+.connect_but {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    align-self: center;
+}
+
+.ico_menu {
+    width: '1rem';
+    height: '1rem';
+    align-self: center;
+}
